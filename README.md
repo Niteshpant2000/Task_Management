@@ -1,5 +1,19 @@
 ## Project Setup Instructions
 
+### Description
+
+This project implements CRUD APIs for a Task Management System using Spring Boot and H2 Database.
+
+**Features:**
+- Full CRUD operations for tasks
+- API documentation available via Swagger UI after starting the project
+- Pessimistic locking on DB calls to ensure data consistency for all users
+- Pagination and status-based filtering for the "get all tasks" API, with results sorted by due date
+- Date validation: tasks can only be created or updated with future dates
+- Mandatory fields: title and date; status defaults to `PENDING`
+- Task IDs are auto-generated
+
+
 ### 1. Clone the repository
 ```
 https://github.com/Niteshpant2000/Task_Management.git
